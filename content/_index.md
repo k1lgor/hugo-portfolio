@@ -20,9 +20,10 @@ sections:
       #   label: >-
       #     <div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy Website Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/starter-hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
       text: |-
+
         Step into the world of Plamen, the bringer of innovation,
         where creativity and imagination collide.
-        
+
         My projects are like uncharted constellations,
         waiting to be discovered in the vast realm of ideas.
 
@@ -37,28 +38,100 @@ sections:
         text_color_light: true
         image:
           filename: home-background.jpg
+
   - block: about.biography
     id: about
     content:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+
   - block: features
     content:
-      title: Skills
+      title: Programming Skills
       items:
-        - name: R
-          description: 90%
-          icon: r-project
+        - name: Linux
+          description: Arch, Kali, RHEL, OpenSUSE
+          icon: linux
           icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
+        - name: Python
+          description: Expert
+          icon: python
+          icon_pack: fab
+        - name: Bash
+          description: Expert
+          icon: terminal
           icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
+        - name: JavaScript
+          description: Intermediate
+          icon: square-js
+          icon_pack: fab
+        - name: Golang
+          description: Intermediate
+          icon: golang
+          icon_pack: fab
+        - name: Markdown
+          description: Expert
+          icon: markdown
+          icon_pack: fab
+        - name: Vue.js
+          description: Beginner
+          icon: vuejs
+          icon_pack: fab
+        - name: Bootstrap
+          description: Beginner
+          icon: bootstrap
+          icon_pack: fab
+
+  - block: features
+    content:
+      title: Containerization & CI/CD
+      items:
+        - name: Docker
+          description: Advanced
+          icon: docker
+          icon_pack: fab
+        - name: Jenkins
+          description: Intermediate
+          icon: jenkins
+          icon_pack: fab
+        - name: GitHub Actions
+          description: Advanced
+          icon: code-merge
           icon_pack: fas
+
+  - block: features
+    content:
+      title: Version Control
+      items:
+        - name: Git
+          description:
+          icon: git
+          icon_pack: fab
+        - name: GitHub
+          icon: github
+          icon_pack: fab
+        - name: BitBucket
+          icon: bitbucket
+          icon_pack: fab
+        - name: Jira
+          icon: jira
+          icon_pack: fab
+
+  - block: features
+    content:
+      title: Soft Skills
+      items:
+        - name: Skilled in prompt formulation for ChatGPT
+        - name: Agile
+        - name: Scrum
+        - name: Fast-leaner
+        - name: Time management
+        - name: Self-disciplined
+        - name: Adaptability
+        - name: Organization skills
+        - name: Team player
+
   - block: experience
     content:
       title: Experience
