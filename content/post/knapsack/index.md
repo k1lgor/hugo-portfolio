@@ -36,7 +36,7 @@ tags:
   - Algorithm
 
 categories:
-  - Blogs
+  - Blog
 ---
 
 ---

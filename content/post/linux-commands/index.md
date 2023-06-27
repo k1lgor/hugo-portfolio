@@ -37,7 +37,7 @@ tags:
   - Beginners
 
 categories:
-  - Blogs
+  - Blog
 ---
 
 ---
