@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2023-06-27
 type: landing
 
 sections:
@@ -137,34 +137,56 @@ sections:
       title: Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
+      date_format: Jun 1, 2006
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Junior DevOps Engineer
+          company: Strypes
+          company_url: 'https://strypes.eu'
+          # company_logo: org-gc
+          location: Varna
+          date_start: '2022-06-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              Responsibilities:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              *
+              * 
+              *
+        - title: Software Development Trainee
+          company: MentorMate
+          company_url: 'https://mentormate.com'
+          # company_logo: org-x
+          location: Varna
+          date_start: '2022-02-02'
+          date_end: '2022-03-15'
+          description: |2-
+              Responsibilities:
+
+              * Learning the basics of TypeScript, Vue.js, HTML, CSS, SASS,
+              Bootstrap through various tasks
+              * Ability to learn new technologies for a short period of time
+              * Time planning and task execution
+        - title: Officer of the Watch (OOW)
+          company: Stamco Manning Varna Co. Ltd.
+          company_url: 'https://www.stamco.bg'
+          # company_logo: org-x
+          location: Varna
+          date_start: '2015-06-01'
+          date_end: '2022-01-01'
+          description: |2-
+              Responsibilities:
+
+              * Ensuring the safety of the vessel and crew
+              * Support shipboard organization
+              * Take charge of navigational and cargo watch
+              * Leading small group of people
+              * Strong work ethic
+              * Teamwork
     design:
       columns: '2'
   - block: accomplishments
@@ -173,7 +195,7 @@ sections:
       title: 'Accomplish&shy;ments'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
+      date_format: Jan 1, 2006
       # Accomplishments.
       #   Add/remove as many `item` blocks below as you like.
       #   `title`, `organization`, and `date_start` are the required parameters.
