@@ -296,16 +296,21 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Python
+          tag: Python
+        - name: Web
+          tag: Web
+        - name: Scripts
+          tag: Shell
+          tag: Bash
         - name: Other
-          tag: Demo
+          tag: Blog
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+      flip_alt_rows: true
   - block: markdown
     content:
       title: Gallery
