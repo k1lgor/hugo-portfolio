@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shell | Portfolio</title><link>https://k1lgor.github.io/tag/shell/</link><atom:link href="https://k1lgor.github.io/tag/shell/index.xml" rel="self" type="application/rss+xml"/><description>Shell</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><image><url>https://k1lgor.github.io/media/icon_hucdc783dfe6b607fdadcda92cca688f51_1481_512x512_fill_lanczos_center_3.png</url><title>Shell</title><link>https://k1lgor.github.io/tag/shell/</link></image><item><title>HackerRank</title><link>https://k1lgor.github.io/project/hackerrank/</link><pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/hackerrank/</guid><description/></item><item><title>MAC changer</title><link>https://k1lgor.github.io/project/macchanger/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/macchanger/</guid><description>&lt;h2 id="setup">Setup&lt;/h2>
+&lt;p>To get started with &lt;code>macchanger&lt;/code>, follow the steps below:&lt;/p>
+&lt;ol>
+&lt;li>Clone the repository to your local machine:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git clone https://github.com/k1lgor/macchanger.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Change into &lt;code>macchanger&lt;/code> directory:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> macchanger
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Make the script executable:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">chmod +x macchanger.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Execute the script with sudo:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo ./macchanger.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This will run the macchanger script with administrative privileges.&lt;/p>
+&lt;h2 id="compatability">Compatability&lt;/h2>
+&lt;p>The macchanger script is compatible with the following Linux distributions:&lt;/p>
+&lt;ul>
+&lt;li>Arch Linux&lt;/li>
+&lt;li>Debian-based distributions (e.g., Ubuntu)&lt;/li>
+&lt;li>Red Hat Enterprise Linux (RHEL)&lt;/li>
+&lt;li>Fedora&lt;/li>
+&lt;li>openSUSE-based distributions&lt;/li>
+&lt;/ul>
+&lt;h2 id="dependencies">Dependencies&lt;/h2>
+&lt;p>The script checks for the presence of &lt;code>ifconfig&lt;/code> and &lt;code>macchanger&lt;/code> commands and installs them if they are not already available on your system. These dependencies are necessary for macchanger to function properly.&lt;/p></description></item><item><title>WiFi DoS</title><link>https://k1lgor.github.io/project/wifi-dos/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/wifi-dos/</guid><description>&lt;h2 id="simple-wifi-dos-attack">Simple WiFi DoS Attack&lt;/h2>
+&lt;p>This repository provides a simple script for conducting a Denial-of-Service (DoS) attack on WiFi networks. The attack utilizes the following tools:&lt;/p>
+&lt;ul>
+&lt;li>nmcli - Network Manager Command Line Interface&lt;/li>
+&lt;li>macchanger - a utility that simplifies the manipulation of MAC addresses of network interfaces&lt;/li>
+&lt;li>aircrack-ng - a comprehensive suite of tools for assessing WiFi network security&lt;/li>
+&lt;/ul>
+&lt;h2 id="usage">Usage&lt;/h2>
+&lt;p>Follow the steps below to execute the DoS attack:&lt;/p>
+&lt;ol>
+&lt;li>Change the permission of the script file to make it executable:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">chmod +x wifi-dos.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Use the following command to view all the networkds within the range of your WiFi adapter:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">nmcli dev wifi
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Copy the target SSID and the corresponding channel number, and replace the values in the script.&lt;/li>
+&lt;li>Execute the script with sudo, as aircrack-ng requires administrative privileges:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo ./wifi-dos.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="demo">Demo&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.gif" alt="Demo" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="disclaimer">Disclaimer&lt;/h2>
+&lt;p>This script is intended for educational purpose only.
+The author is not responsible for any malicious use of the content.&lt;/p></description></item></channel></rss>

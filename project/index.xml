@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Portfolio</title><link>https://k1lgor.github.io/project/</link><atom:link href="https://k1lgor.github.io/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 Jun 2023 00:00:00 +0000</lastBuildDate><image><url>https://k1lgor.github.io/media/icon_hucdc783dfe6b607fdadcda92cca688f51_1481_512x512_fill_lanczos_center_3.png</url><title>Projects</title><link>https://k1lgor.github.io/project/</link></image><item><title>Python vs Cython Benchmark</title><link>https://k1lgor.github.io/project/cython/</link><pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/cython/</guid><description/></item><item><title>IMDb Web Scraper</title><link>https://k1lgor.github.io/project/imdb/</link><pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/imdb/</guid><description>&lt;p>This repository contains a Python script for scraping data from IMDb charts. The script allows you to retrieve information from various IMDb charts, including:&lt;/p>
+&lt;ul>
+&lt;li>Top 250 Movies&lt;/li>
+&lt;li>Most Popular Movies&lt;/li>
+&lt;li>Top 250 TV Shows&lt;/li>
+&lt;li>Most Popular TV Shows&lt;/li>
+&lt;li>Lowest Rated Movies&lt;/li>
+&lt;li>Top Rated English Movies&lt;/li>
+&lt;/ul>
+&lt;h2 id="info">Info&lt;/h2>
+&lt;p>The script extracts the title, year, and IMDb rating for each entry in the specified chart. It then writes the information to a &amp;lsquo;.csv&amp;rsquo; file in the current directory.&lt;/p>
+&lt;p>Please note that the script skips any Movies/TV shows that do not have a rating in the charts.&lt;/p>
+&lt;h2 id="setup">Setup&lt;/h2>
+&lt;p>To set up the IMDb web scraping script, follow these steps:&lt;/p>
+&lt;ol>
+&lt;li>Initialize a Python virtual environment:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">python -m venv venv
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Activate the virtual environment:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Windows:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">.&lt;span class="se">\v&lt;/span>env&lt;span class="se">\S&lt;/span>cripts&lt;span class="se">\a&lt;/span>ctivate
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Linux:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">source&lt;/span> venv/bin/activate
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Update the pip package manager:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Windows:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python -m pip install --upgrade pip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Linux:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">pip install pip -U
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Install the required pip packages:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pip install -r requirements.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Usage:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">python3 main.py
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># or&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">py main.py
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>HackerRank</title><link>https://k1lgor.github.io/project/hackerrank/</link><pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/hackerrank/</guid><description/></item><item><title>Manchester United Stats</title><link>https://k1lgor.github.io/project/manutd-stats/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/manutd-stats/</guid><description/></item><item><title>Dragos IT Academy</title><link>https://k1lgor.github.io/project/flask-project/</link><pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/flask-project/</guid><description>&lt;h2 id="setup">Setup&lt;/h2>
+&lt;p>To set up the Flask application, follow these steps:&lt;/p>
+&lt;ol>
+&lt;li>Clone the repository to your local machine:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git clone https://github.com/k1lgor/flask.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Change into the flask directory:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> flask
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Create a virtual environment and install the required dependencies:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">python -m venv venv
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">source&lt;/span> venv/bin/activate
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">pip install -r requirements.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This will create a virtual environment and install all the necessary dependencies specified in the requirements.txt file.&lt;/p>
+&lt;ol start="4">
+&lt;li>Start the Flask application:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">flask run
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The application will be accessible at &lt;a href="http://localhost:5000" target="_blank" rel="noopener">http://localhost:5000&lt;/a> in your web browser.&lt;/p></description></item><item><title>Portfolio</title><link>https://k1lgor.github.io/project/portfolio/</link><pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/portfolio/</guid><description/></item><item><title>Login Page</title><link>https://k1lgor.github.io/project/login-page/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/login-page/</guid><description/></item><item><title>MAC changer</title><link>https://k1lgor.github.io/project/macchanger/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/macchanger/</guid><description>&lt;h2 id="setup">Setup&lt;/h2>
+&lt;p>To get started with &lt;code>macchanger&lt;/code>, follow the steps below:&lt;/p>
+&lt;ol>
+&lt;li>Clone the repository to your local machine:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git clone https://github.com/k1lgor/macchanger.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Change into &lt;code>macchanger&lt;/code> directory:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> macchanger
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Make the script executable:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">chmod +x macchanger.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Execute the script with sudo:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo ./macchanger.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This will run the macchanger script with administrative privileges.&lt;/p>
+&lt;h2 id="compatability">Compatability&lt;/h2>
+&lt;p>The macchanger script is compatible with the following Linux distributions:&lt;/p>
+&lt;ul>
+&lt;li>Arch Linux&lt;/li>
+&lt;li>Debian-based distributions (e.g., Ubuntu)&lt;/li>
+&lt;li>Red Hat Enterprise Linux (RHEL)&lt;/li>
+&lt;li>Fedora&lt;/li>
+&lt;li>openSUSE-based distributions&lt;/li>
+&lt;/ul>
+&lt;h2 id="dependencies">Dependencies&lt;/h2>
+&lt;p>The script checks for the presence of &lt;code>ifconfig&lt;/code> and &lt;code>macchanger&lt;/code> commands and installs them if they are not already available on your system. These dependencies are necessary for macchanger to function properly.&lt;/p></description></item><item><title>ToDo app</title><link>https://k1lgor.github.io/project/todo-vuejs/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/todo-vuejs/</guid><description/></item><item><title>WiFi DoS</title><link>https://k1lgor.github.io/project/wifi-dos/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>https://k1lgor.github.io/project/wifi-dos/</guid><description>&lt;h2 id="simple-wifi-dos-attack">Simple WiFi DoS Attack&lt;/h2>
+&lt;p>This repository provides a simple script for conducting a Denial-of-Service (DoS) attack on WiFi networks. The attack utilizes the following tools:&lt;/p>
+&lt;ul>
+&lt;li>nmcli - Network Manager Command Line Interface&lt;/li>
+&lt;li>macchanger - a utility that simplifies the manipulation of MAC addresses of network interfaces&lt;/li>
+&lt;li>aircrack-ng - a comprehensive suite of tools for assessing WiFi network security&lt;/li>
+&lt;/ul>
+&lt;h2 id="usage">Usage&lt;/h2>
+&lt;p>Follow the steps below to execute the DoS attack:&lt;/p>
+&lt;ol>
+&lt;li>Change the permission of the script file to make it executable:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">chmod +x wifi-dos.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Use the following command to view all the networkds within the range of your WiFi adapter:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">nmcli dev wifi
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Copy the target SSID and the corresponding channel number, and replace the values in the script.&lt;/li>
+&lt;li>Execute the script with sudo, as aircrack-ng requires administrative privileges:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo ./wifi-dos.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="demo">Demo&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.gif" alt="Demo" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="disclaimer">Disclaimer&lt;/h2>
+&lt;p>This script is intended for educational purpose only.
+The author is not responsible for any malicious use of the content.&lt;/p></description></item></channel></rss>
