@@ -55,7 +55,7 @@ sections:
           icon: linux
           icon_pack: fab
         - name: Python
-          description: Expert
+          description: Advanced
           icon: python
           icon_pack: fab
         - name: Bash
@@ -364,8 +364,8 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      # text: |-
+      #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
       email: plamen_iv@protonmail.com
       phone: +359 892 758 777
