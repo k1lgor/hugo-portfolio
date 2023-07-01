@@ -22,17 +22,15 @@ organizations:
     url: https://strypes.eu
 
 # Short bio (displayed in user profile at end of posts)
-bio: Python & Bash Automation Ninja | Gopher Rookie on the Rise.
+bio: Python & Bash Automation Ninja | Gopher Rookie on the Rise
 
 # Interests to show in About widget
 interests:
   - Linux and Shell scripting
-  - Python
-  - Golang
-  - Rust
+  - Python, Golang, Rust
   - Web Dev
   - Docker
-  - GH Actions
+  - GitHub Actions
 
 # Education to show in About widget
 education:
@@ -40,7 +38,7 @@ education:
     - course: Python Dev Path
       institution: SoftUni
       year: 2022
-    - course: Marine Navigation
+    - course: Maritime Navigation
       institution: Technical University of Varna
       year: 2016
 
