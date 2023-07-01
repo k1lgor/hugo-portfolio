@@ -154,9 +154,10 @@ sections:
           description: |2-
               Responsibilities:
 
-              *
-              *
-              *
+              * Design and implement various development, testing and automation tools
+              * Build and test automation tools for infrastructure provisioning
+              * Support code deployments in environments
+              * Improve infrastrucure and application development
         - title: Software Development Trainee
           company: MentorMate
           company_url: https://mentormate.com
@@ -303,6 +304,8 @@ sections:
         - name: Scripts
           tag: Shell
           tag: Bash
+        - name: Go
+          tag: Go
         - name: Other
           tag: Other
     design:
