@@ -3,6 +3,7 @@ title: IMDb Web Scraper
 summary: Scraper for 6 categories from IMDb
 tags:
   - Python
+  - Jupyter Notebook
 date: '2022-10-13T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
