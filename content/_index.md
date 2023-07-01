@@ -147,7 +147,7 @@ sections:
         - title: Junior DevOps Engineer
           company: Strypes
           company_url: https://strypes.eu
-          # company_logo: org-gc
+          company_logo: strypes
           location: Varna
           date_start: '2022-06-01'
           date_end: ''
@@ -160,7 +160,7 @@ sections:
         - title: Software Development Trainee
           company: MentorMate
           company_url: https://mentormate.com
-          # company_logo: org-x
+          company_logo: mentormate
           location: Varna
           date_start: '2022-02-02'
           date_end: '2022-03-15'
@@ -174,7 +174,7 @@ sections:
         - title: Officer of the Watch (OOW)
           company: Stamco Manning Varna Co. Ltd.
           company_url: https://www.stamco.bg
-          # company_logo: org-x
+          company_logo: stamco
           location: Varna
           date_start: '2015-06-01'
           date_end: '2022-01-01'
