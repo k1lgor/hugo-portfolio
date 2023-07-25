@@ -21,10 +21,12 @@ sections:
       #     <div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy Website Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/starter-hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
       text: |-
 
-        Step into the world of Plamen, the bringer of innovation,
+        Step into my world, the bringer of innovation,
+
         where creativity and imagination collide.
 
         My projects are like uncharted constellations,
+
         waiting to be discovered in the vast realm of ideas.
 
         <!--Custom spacing-->
@@ -117,6 +119,9 @@ sections:
         - name: Jira
           icon: jira
           icon_pack: fab
+        - name: ClearCase
+          icon: computer
+          icon_pack: fas
 
   - block: features
     content:
@@ -130,7 +135,7 @@ sections:
         - name: Self-disciplined
         - name: Adaptability
         - name: Organization skills
-        - name: Team player
+        - name: Work ethic
 
   - block: experience
     content:
@@ -157,7 +162,7 @@ sections:
               * Design and implement various development, testing and automation tools
               * Build and test automation tools for infrastructure provisioning
               * Support code deployments in environments
-              * Improve infrastrucure and application development
+              * Improve infrastructure and application development
         - title: Software Development Trainee
           company: MentorMate
           company_url: https://mentormate.com
@@ -182,12 +187,12 @@ sections:
           description: |2-
               Responsibilities:
 
-              * Ensuring the safety of the vessel and crew
+              * Ensuring the safety of both the vessel and its crew
               * Support shipboard organization
               * Take charge of navigational and cargo watch
               * Leading small group of people
               * Strong work ethic
-              * Teamwork
+              * Time management
     design:
       columns: '2'
   - block: accomplishments
@@ -372,7 +377,7 @@ sections:
       # Contact (add or remove contact options as necessary)
       email: plamen_iv@protonmail.com
       phone: +359 892 758 777
-      appointment_url: 'https://calendly.com'
+      # appointment_url: 'https://calendly.com'
       address:
         # street: 450 Serra Mall
         city: Varna
@@ -408,13 +413,13 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
