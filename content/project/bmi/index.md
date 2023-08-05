@@ -3,7 +3,7 @@ title: BMI Calculator CLI
 summary: This is a command-line interface (CLI) tool for calculating body mass index (BMI) based on user input for weight and height.
 tags:
   - Go
-date: '2023-04-18T00:00:00Z'
+date: '2023-07-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
