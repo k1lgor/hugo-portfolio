@@ -159,9 +159,10 @@ sections:
           description: |2-
               Responsibilities:
 
-              * Design and implement various development, testing and automation tools
+              * Developed scripts to automate manual tasks, resulting in significant time savings using scripting languages such as Python, Bash, and Golang
+              * Design and implement various development, testing, and automation tools
+              * Developed a CI/CD workflow that reduced time-to-deployment
               * Build and test automation tools for infrastructure provisioning
-              * Support code deployments in environments
               * Improve infrastructure and application development
         - title: Software Development Trainee
           company: MentorMate

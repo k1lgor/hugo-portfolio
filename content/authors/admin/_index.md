@@ -85,5 +85,5 @@ email: ''
 highlight_name: true
 ---
 
-I have a positive attitude and can easily adapt to new things. I'm a fast learner and excited to learn about the latest technologies. The TV show Mr. Robot played a major role in my decision to change my career.
+Passionate and energetic person who loves automating manual work and building tools that make people's lives easier and more productive. I am highly motivated and results-oriented. I enjoy challenges because they help me expand my knowledge and improve my skills.
 {style="text-align: justify;"}
