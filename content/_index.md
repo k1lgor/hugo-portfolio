@@ -373,12 +373,12 @@ sections:
     content:
       title: Contact
       subtitle:
-      # text: |-
-      #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      text: |-
+        Please do not hesitate to contact me.
       # Contact (add or remove contact options as necessary)
-      email: plamen_iv@protonmail.com
+      email: ivanov.iv.plamen@gmail.com
       phone: +359 892 758 777
-      # appointment_url: 'https://calendly.com'
+      appointment_url: 'https://calendly.com/ivanov-iv-plamen'
       address:
         # street: 450 Serra Mall
         city: Varna
