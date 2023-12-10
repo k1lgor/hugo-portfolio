@@ -84,6 +84,9 @@ sections:
           description: Beginner
           icon: bootstrap
           icon_pack: fab
+        - name: Django
+          description: Beginner
+          icon: django
 
   - block: features
     content:
@@ -386,6 +389,9 @@ sections:
         # postcode: '94305'
         country: Bulgaria
         country_code: BG
+      coordinates:
+        latitude: '43.21667'
+        longitude: '27.91667'
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
