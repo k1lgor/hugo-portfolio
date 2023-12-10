@@ -55,38 +55,39 @@ sections:
         - name: Linux
           description: Arch, Kali, RHEL, OpenSUSE
           icon: linux
-          icon_pack: fab
+          icon_pack: custom
         - name: Python
           description: Advanced
           icon: python
-          icon_pack: fab
+          icon_pack: custom
         - name: Bash
           description: Expert
-          icon: terminal
-          icon_pack: fas
+          icon: bash
+          icon_pack: custom
         - name: JavaScript
           description: Intermediate
-          icon: square-js
-          icon_pack: fab
+          icon: javascript
+          icon_pack: custom
         - name: Golang
           description: Intermediate
-          icon: golang
-          icon_pack: fab
+          icon: go
+          icon_pack: custom
         - name: Markdown
           description: Expert
           icon: markdown
-          icon_pack: fab
+          icon_pack: custom
         - name: Vue.js
           description: Beginner
           icon: vuejs
-          icon_pack: fab
+          icon_pack: custom
         - name: Bootstrap
           description: Beginner
           icon: bootstrap
-          icon_pack: fab
+          icon_pack: custom
         - name: Django
           description: Beginner
           icon: django
+          icon_pack: custom
 
   - block: features
     content:
@@ -95,15 +96,15 @@ sections:
         - name: Docker
           description: Advanced
           icon: docker
-          icon_pack: fab
+          icon_pack: custom
         - name: Jenkins
           description: Intermediate
           icon: jenkins
-          icon_pack: fab
+          icon_pack: custom
         - name: GitHub Actions
           description: Advanced
-          icon: code-merge
-          icon_pack: fas
+          icon: githubactions
+          icon_pack: custom
 
   - block: features
     content:
@@ -112,16 +113,16 @@ sections:
         - name: Git
           description:
           icon: git
-          icon_pack: fab
+          icon_pack: custom
         - name: GitHub
           icon: github
-          icon_pack: fab
+          icon_pack: custom
         - name: BitBucket
           icon: bitbucket
-          icon_pack: fab
+          icon_pack: custom
         - name: Jira
           icon: jira
-          icon_pack: fab
+          icon_pack: custom
         - name: ClearCase
           icon: computer
           icon_pack: fas
