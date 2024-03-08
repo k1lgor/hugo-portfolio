@@ -85,7 +85,7 @@ sections:
           icon: bootstrap
           icon_pack: custom
         - name: Django
-          description: Beginner
+          description: Intermediate
           icon: django
           icon_pack: custom
 
@@ -260,6 +260,14 @@ sections:
           organization: Udemy
           organization_url: https://www.udemy.com
           title: GitHub Actions - The Complete Guide
+          url: ''
+        - certificate_url: https://softuni.bg/certificates/details/207384/ead50adc
+          date_end: '2024-02-24'
+          date_start: '2024-01-08'
+          description: ''
+          organization: SoftUni
+          organization_url: https://softuni.bg
+          title: Django Basics
           url: ''
     design:
       columns: '2'
