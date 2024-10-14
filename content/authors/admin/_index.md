@@ -14,12 +14,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Junior DevOps Engineer
+role: DevOps Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Strypes
-    url: https://strypes.eu
+    url: https://ict-strypes.eu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Python & Bash Automation Ninja | Gopher Rookie on the Rise
@@ -27,9 +27,9 @@ bio: Python & Bash Automation Ninja | Gopher Rookie on the Rise
 # Interests to show in About widget
 interests:
   - Linux and Shell scripting
-  - Python, Golang, Rust
-  - Django
-  - Docker
+  - Python, Golang
+  - Back-end with Django, Flask
+  - Docker, k8s
   - GitHub Actions
 
 # Education to show in About widget
