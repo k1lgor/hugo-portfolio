@@ -76,17 +76,13 @@ sections:
           description: Expert
           icon: markdown
           icon_pack: custom
-        - name: Vue.js
-          description: Beginner
-          icon: vuejs
-          icon_pack: custom
-        - name: Bootstrap
-          description: Beginner
-          icon: bootstrap
-          icon_pack: custom
         - name: Django
           description: Intermediate
           icon: django
+          icon_pack: custom
+        - name: Flask
+          description: Beginner
+          icon: Flask
           icon_pack: custom
 
   - block: features
