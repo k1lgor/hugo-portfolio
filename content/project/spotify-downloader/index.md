@@ -4,7 +4,7 @@ summary: Simple GUI for downloading your favorite playlists from Spotify.
 tags:
   - Python
   - Flet
-date: '2023-01-04T00:00:00Z'
+date: '2024-08-25T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -35,26 +35,42 @@ url_video: ''
 slides: ''
 ---
 
-This is a simple graphical user interface (GUI) for the Spotify Downloader, written in Python using the Flet framework. The Spotify Downloader allows you to download Spotify playlists as audio files, and this GUI simplifies the process for Linux users.
+A Python application with a graphical user interface (GUI) built using Flet, which allows users to download Spotify albums. Users can specify the album URL, choose the bitrate for the songs, and select a directory to save the downloaded files. The app supports both light and dark themes with a toggle feature.
 
-## Prerequisites
+## Features
 
-Before using the Spotify Downloader GUI, make sure you have installed spotdl. You can install it by running the following command:
+- Spotify Album Download: Download entire albums from Spotify.
+- Bitrate Selection: Choose from multiple bitrate options (128 kbps, 192 kbps, 256 kbps, 320 kbps).
+- Directory Selection: Choose a directory to save the downloaded files.
+- Theme Toggle: Switch between light and dark mode for the UI.
+- Automatic Installation: Checks and installs spotdl if not already installed.
+
+## Installation
+
+- Clone the repository:
 
 ```bash
-pip install spotdl
+git clone https://github.com/k1lgor/spotify-downloader-gui.git
+cd spotify-downloader-gui
 ```
 
-or click the button from GUI.
+- Install required Python packages:
 
-Please note that this GUI has been tested on Linux operating systems only.
+```bash
+poetry install
+```
+
+- Run the application:
+
+```bash
+flet run main.py
+```
 
 ## Usage
 
-1. Choose Folder: Click the "Choose Folder" button to select the destination folder where the downloaded audio files will be saved.
-
-2. Choose Bitrate: Select the desired bitrate from the dropdown menu. You can choose from various audio quality options.
-
-3. Paste Playlist URL: Copy the playlist URL from Spotify and paste it into the "Playlist URL" input box.
-
-4. Download: Once you have set the folder and chosen the bitrate, click the "Download" button to start the downloading process.
+- Open the application.
+- Enter the Spotify album URL in the provided text field.
+- Select the desired bitrate from the dropdown menu.
+- Choose the directory where the songs will be saved.
+- Click "Download Album" to start the download.
+- Use the "Switch to Dark Mode" button to toggle between light and dark themes.
