@@ -4,7 +4,7 @@ summary: This is a simple Todo application built with Django
 tags:
   - Python
   - Web
-date: '2023-12-09T00:00:00Z'
+date: '2024-02-09T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
