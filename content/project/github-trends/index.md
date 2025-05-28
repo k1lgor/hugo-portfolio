@@ -3,6 +3,7 @@ title: GitHub Trends - Top 20 Repositories
 summary: This project is a simple web application that fetches the top 20 GitHub repositories for a specific month and year, using the GitHub API. Users can select the year and month to view the most popular repositories for that period.
 tags:
   - Go
+  - Web
 date: '2024-09-10T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
@@ -20,6 +21,10 @@ links:
   - icon: golang
     icon_pack: fab
     name: Golang
+  - icon: url
+    icon_pack: fab
+    name: URL
+    url: https://github-trends.onrender.com/
 url_code: ''
 url_pdf: ''
 url_slides: ''
