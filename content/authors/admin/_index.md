@@ -26,11 +26,12 @@ bio: Python & Bash Automation Ninja | Gopher Rookie on the Rise
 
 # Interests to show in About widget
 interests:
-  - Linux and Shell scripting
-  - Python, Golang
-  - Back-end with Django, Flask
-  - Docker, k8s
-  - GitHub Actions
+  - Linux/Bash
+  - Python/Golang
+  - Django/Gin
+  - Docker/k8s
+  - CI/CD Pipelines
+  - AI
 
 # Education to show in About widget
 education:
@@ -85,5 +86,5 @@ email: ''
 highlight_name: true
 ---
 
-Passionate and energetic person who loves automating manual work and building tools that make people's lives easier and more productive. I am highly motivated and results-oriented. I enjoy challenges because they help me expand my knowledge and improve my skills.
+Passionate DevOps engineer who loves automating manual processes and building tools that enhance team productivity. I am results-driven and thriveon challenges that expand knowledge and problem-solving skills.
 {style="text-align: justify;"}

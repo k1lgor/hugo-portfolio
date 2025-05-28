@@ -21,12 +21,9 @@ sections:
       #     <div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy Website Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/starter-hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
       text: |-
 
-        Step into my world, the bringer of innovation,
-
-        where creativity and imagination collide.
-
-        My projects are like uncharted constellations,
-
+        Step into my world, the bringer of innovation,\
+        where creativity and imagination collide.\
+        My projects are like uncharted constellations,\
         waiting to be discovered in the vast realm of ideas.
 
         <!--Custom spacing-->
@@ -50,65 +47,48 @@ sections:
 
   - block: features
     content:
-      title: Programming Skills
+      title: My OS Arsenal 🖥️
       items:
-        - name: Linux
-          description: Arch, Kali, RHEL, OpenSUSE
-          icon: linux
+        - name: Arch Linux
+          icon: archlinux
           icon_pack: custom
-        - name: Python
-          description: Advanced
-          icon: python
+        - name: RHEL
+          icon: rhel
           icon_pack: custom
-        - name: Bash
-          description: Expert
-          icon: bash
+        - name: OpenSUSE
+          icon: opensuse
           icon_pack: custom
-        - name: JavaScript
-          description: Intermediate
-          icon: javascript
-          icon_pack: custom
-        - name: Golang
-          description: Intermediate
-          icon: go
-          icon_pack: custom
-        - name: Markdown
-          description: Expert
-          icon: markdown
-          icon_pack: custom
-        - name: Django
-          description: Intermediate
-          icon: django
-          icon_pack: custom
-        - name: Flask
-          description: Beginner
-          icon: Flask
+        - name: Debian
+          icon: debian
           icon_pack: custom
 
   - block: features
     content:
-      title: Containerization & CI/CD
+      title: My Creative Cockpit 🛠️
       items:
-        - name: Docker
-          description: Advanced
-          icon: docker
+        - name: VSCode
+          icon: vscode
           icon_pack: custom
-        - name: Jenkins
-          description: Intermediate
-          icon: jenkins
+        - name: Sublime Text
+          icon: sublime
           icon_pack: custom
-        - name: GitHub Actions
-          description: Advanced
-          icon: githubactions
+        - name: Trae
+          icon: trae
+          icon_pack: custom
+        - name: Windsurf IDE
+          icon: windsurf
           icon_pack: custom
 
   - block: features
     content:
-      title: Version Control
+      title: Keeping it in sync 🔧
       items:
         - name: Git
           description:
           icon: git
+          icon_pack: custom
+        - name: ClearCase
+          icon: clearcase
           icon_pack: custom
         - name: GitHub
           icon: github
@@ -119,23 +99,150 @@ sections:
         - name: Jira
           icon: jira
           icon_pack: custom
-        - name: ClearCase
-          icon: computer
-          icon_pack: fas
+        - name: Confluence
+          icon: confluence
+          icon_pack: custom
 
   - block: features
     content:
-      title: Soft Skills
+      title: Virtualization Vibes 🌐
       items:
-        - name: Skilled in prompt formulation for ChatGPT
-        - name: Agile
-        - name: Scrum
-        - name: Fast-leaner
-        - name: Time management
-        - name: Self-disciplined
-        - name: Adaptability
-        - name: Organization skills
-        - name: Work ethic
+        - name: VMware Workstation
+          icon: vmware-workstation
+          icon_pack: custom
+        - name: VirtualBox
+          icon: virtualbox
+          icon_pack: custom
+        - name: Vagrant
+          icon: vagrant
+          icon_pack: custom
+
+  - block: features
+    content:
+      title: Code I Speak 💻
+      items:
+        - name: Bash
+          # description: Expert
+          icon: bash
+          icon_pack: custom
+        - name: Python
+          # description: Advanced
+          icon: python
+          icon_pack: custom
+        - name: Golang
+          # description: Intermediate
+          icon: go
+          icon_pack: custom
+        - name: JavaScript
+          # description: Intermediate
+          icon: javascript
+          icon_pack: custom
+        - name: Markdown
+          # description: Expert
+          icon: markdown
+          icon_pack: custom
+
+  - block: features
+    content:
+      title: Frontend Flair & Frameworks 🖼️
+      items:
+        - name: Vue.js
+          # description: Intermediate
+          icon: vuejs
+          icon_pack: custom
+        - name: Bootstrap
+          # description: Beginner
+          icon: bootstrap
+          icon_pack: custom
+        - name: HTML
+          icon: html
+          icon_pack: custom
+        - name: CSS
+          icon: css
+          icon_pack: custom
+
+  - block: features
+    content:
+      title: Backend Brilliance ⚙️
+      items:
+        - name: Django
+          icon: django
+          icon_pack: custom
+        - name: Django Rest Framework
+          icon: django-rest
+          icon_pack: custom
+        - name: Gin
+          icon: gin
+          icon_pack: custom
+
+  - block: features
+    content:
+      title: CI/CD & Container Craze 🔄
+      items:
+        - name: Docker
+          # description: Advanced
+          icon: docker
+          icon_pack: custom
+        - name: Podman
+          icon: podman
+          icon_pack: custom
+        - name: Jenkins
+          # description: Intermediate
+          icon: jenkins
+          icon_pack: custom
+        - name: GitHub Actions
+          # description: Advanced
+          icon: gha
+          icon_pack: custom
+        - name: Kubernetes
+          icon: kubernetes
+          icon_pack: custom
+
+  - block: features
+    content:
+      title: AI Arsenal 🤖
+      items:
+        - name: Claude
+          icon: claude
+          icon_pack: custom
+        - name: Qwen
+          icon: qwen
+          icon_pack: custom
+        - name: DeepSeek
+          icon: deepseek
+          icon_pack: custom
+        - name: Grok
+          icon: grok
+          icon_pack: custom
+        - name: Ollama
+          icon: ollama
+          icon_pack: custom
+        - name: ChatGPT
+          icon: chatgpt
+          icon_pack: custom
+
+  - block: features
+    content:
+      title: Soft Skills 🧠
+      items:
+        - name: AI Prompt Engineering
+          description: Proficient in developing optimized prompts
+        - name: Agile/Scrum Methodology
+          description: Proficient in Agile project management frameworks and Scrum practices, including ceremonies and sprint management
+        - name: Continuous Learning
+          description: Committed to ongoing professional development and skill acquisition
+        - name: Strategic Time Management
+          description: Demonstrated ability to prioritize tasks and meet deadlines effectively
+        - name: Professional Integrity
+          description: Maintains high standards of self-discipline and accountability
+        - name: Change Management
+          description: Proven adaptability in dynamic work environments
+        - name: Professional Excellence
+          description: Dedicated to delivering quality results and maintaining workplace standards
+        - name: Technical Problem-Solving
+          description: Skilled in independent research and troubleshooting through strategic information gathering
+        - name: Team Collaboration
+          description: Strong ability to work collaboratively with team members and stakeholders
 
   - block: experience
     content:
@@ -149,9 +256,9 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Junior DevOps Engineer
+        - title: DevOps Engineer
           company: Strypes
-          company_url: https://strypes.eu
+          company_url: https://ict-strypes.eu/
           company_logo: strypes
           location: Varna
           date_start: '2022-06-01'
@@ -159,11 +266,11 @@ sections:
           description: |2-
               Responsibilities:
 
-              * Developed scripts to automate manual tasks, resulting in significant time savings using scripting languages such as Python, Bash, and Golang
-              * Design and implement various development, testing, and automation tools
-              * Developed a CI/CD workflow that reduced time-to-deployment
-              * Build and test automation tools for infrastructure provisioning
-              * Improve infrastructure and application development
+              * Automated manual processes using Python, Bash, and Go, reducing operational overhead and improving team efficiency
+              * Designed and implemented development, testing, and deployment automation tools
+              * Implemented CI/CD pipelines that accelerated deployment cycles
+              * Migrated Jenkins pipelines to GitHub Actions workflows, modernizing CI/CD infrastructure
+              * Built automated data pipeline for Splunk integration and created comprehensive monitoring dashboards
         - title: Software Development Trainee
           company: MentorMate
           company_url: https://mentormate.com
@@ -174,10 +281,9 @@ sections:
           description: |2-
               Responsibilities:
 
-              * Learning the basics of TypeScript, Vue.js, HTML, CSS, SASS,
-              Bootstrap through various tasks
-              * Ability to learn new technologies for a short period of time
-              * Time planning and task execution
+              * Developed frontend applications using TypeScript, Vue.js, HTML, CSS, SASS, and Bootstrap
+              * Rapidly acquired new technical skills and adapted to evolving project requirements
+              * Managed project timelines and delivered tasks according to established deadlines
         - title: Officer of the Watch (OOW)
           company: Stamco Manning Varna Co. Ltd.
           company_url: https://www.stamco.bg
@@ -188,12 +294,12 @@ sections:
           description: |2-
               Responsibilities:
 
-              * Ensuring the safety of both the vessel and its crew
-              * Support shipboard organization
-              * Take charge of navigational and cargo watch
-              * Leading small group of people
-              * Strong work ethic
-              * Time management
+              * Maintained vessel and crew safety protocols in compliance with maritime regulations
+              * Supported ship operations and organizational procedures during voyages
+              * Supervised navigational watches and cargo operations as watch officer
+              * Led and coordinated teams of crew members during operational duties
+              * Demonstrated reliability and strong work ethic in demanding maritime environment
+              * Managed critical time-sensitive operations and emergency response procedures
     design:
       columns: '2'
   - block: accomplishments
