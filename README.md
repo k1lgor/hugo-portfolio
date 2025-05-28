@@ -1,50 +1,147 @@
-# [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic)
+# 🚀 Plamen Ivanov's Portfolio
 
-[![Screenshot](./preview.png)](https://wowchemy.com/hugo-themes/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Active-brightgreen)](https://k1lgor.github.io)
+[![Hugo](https://img.shields.io/badge/Hugo-Academic_Theme-blue)](https://github.com/wowchemy/starter-hugo-academic)
+[![License](https://img.shields.io/github/license/k1lgor/hugo-portfolio)](LICENSE.md)
 
-The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+<div align="center">
+  <img src="preview.png" alt="Portfolio Preview" width="600px">
+</div>
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://wowchemy.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/wowchemy?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+## 🌟 Overview
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+Welcome to my personal portfolio website built with [Hugo](https://gohugo.io/) and the [Academic Theme](https://github.com/wowchemy/starter-hugo-academic). This site showcases my skills, projects, experience, and certifications as a DevOps Engineer.
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+> Step into my world, the bringer of innovation,
+> where creativity and imagination collide.
+> My projects are like uncharted constellations,
+> waiting to be discovered in the vast realm of ideas.
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://wowchemy.com/creators/).
+## 💻 Tech Stack
 
-The integrated [**Wowchemy**](https://wowchemy.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+This portfolio is powered by:
 
-- 👉 [**Get Started**](https://wowchemy.com/hugo-themes/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli)
-- 💡 [Suggest an improvement](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
+- **[Hugo](https://gohugo.io/)** - The world's fastest framework for building websites
+- **[Wowchemy Academic Theme](https://github.com/wowchemy/starter-hugo-academic)** - The website builder for Hugo
+- **[GitHub Pages](https://pages.github.com/)** - Hosting platform
 
-## We ask you, humbly, to support this open source movement
+## 🔧 My Skills
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+### Operating Systems
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+- Arch Linux
+- RHEL
+- OpenSUSE
+- Debian
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+### Development Tools
 
-<p align="center"><a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"><img src="https://wowchemy.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Wowchemy Website Builder"></a></p>
+- VSCode
+- Sublime Text
+- Trae
+- Windsurf IDE
 
-## Demo image credits
+### Version Control & Project Management
 
-- [Open book](https://unsplash.com/photos/J4kK8b9Fgj8)
-- [Course](https://unsplash.com/photos/JKUTrJ4vK00)
+- Git
+- ClearCase
+- GitHub
+- BitBucket
+- Jira
+- Confluence
 
-## Latest news
+### Virtualization
 
-<!--START_SECTION:news-->
-* [Easily make an academic CV website to get more cites and grow your audience 🚀](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;easily-make-academic-website&#x2F;)
-* [What&#39;s new in v5.2?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;whats-new-in-v5.2&#x2F;)
-* [What&#39;s new in v5.1?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;whats-new-in-v5.1&#x2F;)
-* [Version 5.0 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;version-5.0-february-2021&#x2F;)
-* [Version 5.0 Beta 3 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;version-5.0-beta-3-february-2021&#x2F;)
-<!--END_SECTION:news-->
+- VMware Workstation
+- VirtualBox
+- Vagrant
+
+### Programming Languages
+
+- Bash
+- Python
+- Golang
+- JavaScript
+- Markdown
+
+### Frontend
+
+- Vue.js
+- Bootstrap
+- HTML
+- CSS
+
+### Backend
+
+- Django
+- Django Rest Framework
+- Gin
+
+### CI/CD & Containers
+
+- Docker
+- Podman
+- Jenkins
+- GitHub Actions
+- Kubernetes
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Hugo Extended](https://gohugo.io/getting-started/installing/) (v0.80.0 or higher)
+- [Git](https://git-scm.com/)
+- [Go](https://golang.org/) (for Hugo modules)
+
+### Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/k1lgor/hugo-portfolio.git
+   cd hugo-portfolio
+   ```
+
+2. Start the development server:
+
+   ```bash
+   hugo server
+   ```
+
+3. View your site at <http://localhost:1313/>
+
+### Deployment
+
+This site is configured to deploy to GitHub Pages. Push changes to the main branch to trigger a deployment:
+
+```bash
+git add .
+git commit -m "Update portfolio"
+git push origin main
+```
+
+## 📝 Customization
+
+To customize this portfolio:
+
+1. Edit the configuration files in the `config/_default/` directory
+2. Modify content in the `content/` directory
+3. Add your own assets to the `assets/` directory
+4. Create or update widgets in the `content/_index.md` file
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 📞 Contact
+
+- GitHub: [@k1lgor](https://github.com/k1lgor)
+- LinkedIn: [Plamen Ivanov](https://www.linkedin.com/in/plamen-i-ivanov/)
+- Website: [k1lgor.github.io/hugo-portfolio](https://k1lgor.github.io/hugo-portfolio)
+
+---
+
+<div align="center">
+  <p>Built with ❤️ by Plamen Ivanov</p>
+  <p>Powered by <a href="https://github.com/wowchemy/starter-hugo-academic">Hugo Academic Theme</a></p>
+</div>
