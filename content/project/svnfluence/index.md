@@ -4,7 +4,7 @@ summary: AI-driven web application that helps developers quickly find and unders
 tags:
   - Go
   - Web
-date: '2025-02-25T00:00:00Z'
+date: '2025-02-23T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
